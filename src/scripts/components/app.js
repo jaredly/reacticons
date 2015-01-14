@@ -175,7 +175,7 @@ var Main = React.createClass({
               </fieldset>
               <fieldset>
                 <label>Type</label>
-                <select value="text" onChange={this.handleTypeChange}>
+                <select value={this.state.type} onChange={this.handleTypeChange}>
                   <option value="text" defaultValue>Text</option>
                   <option value="table">Table</option>
                   <option value="image">Image</option>
